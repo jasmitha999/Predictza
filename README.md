@@ -1,11 +1,9 @@
-# Predictza
+# PREDICTZA
 
- 🎯 Objective
-
+🎯 Objective
 Predictza aims to bridge the gap between medical imaging and real-time diagnosis using machine learning. By automating the interpretation of ECG images, it empowers users and healthcare providers to identify potential heart conditions early and take preventive actions.
 
- 🧬 How It Works
-
+🧬 How It Works
 Image Validation: The uploaded ECG image undergoes validation to ensure it's a proper ECG scan.
 
 Metadata Extraction: The app analyzes ECG wave patterns to extract meaningful features (e.g., ST elevation, Q waves).
@@ -24,30 +22,27 @@ A downloadable PDF report
 
 User Management: All user details, predictions, and appointments are stored securely in a local database.
 
- 🏥 Real-World Use Cases
-
+🏥 Real-World Use Cases
 Remote Cardiac Screening: Ideal for telemedicine platforms that require automated diagnostics.
 
 Clinical Support Tool: Assists cardiologists in preliminary screening of patients.
 
-Health Checkup Camps: Can be used during community outreach programs where rapid ECG scanning and feedback are needed.
+Health Checkup Camps: Useful in community outreach programs for quick ECG scans and reports.
 
-Educational Tool: Medical students can use it to understand ECG features and disease classification.
+Educational Tool: Helps medical students understand ECG features and disease classification.
 
- 🔍 Model Insights
-
+🔍 Model Insights
 The app integrates multiple models to improve prediction accuracy:
 
 Random Forest: Helps with feature importance and non-linear decision making.
 
 XGBoost: Offers optimized gradient boosting for robust learning.
 
-CatBoost: Especially good with categorical features and prevents overfitting.
+CatBoost: Excellent for handling categorical features and reducing overfitting.
 
-Voting Classifier: Combines predictions from all models to make a consensus decision—balancing strengths and weaknesses.
+Voting Classifier: Combines predictions from all models to make a balanced consensus decision.
 
- 🧾 Reports & Documentation
-
+🧾 Reports & Documentation
 Each PDF report includes:
 
 The user's name and predicted condition
@@ -58,10 +53,9 @@ Metadata statistics (max, mean, median for ST elevation, Q waves, etc.)
 
 Personalized precautions based on predicted disease type
 
-Printable, shareable format for doctors or patient records
+Printable, shareable format suitable for doctors and patient records
 
- 🌐 Future Enhancements
-
+🌐 Future Enhancements
 Integration with cloud-based databases for better scalability
 
 Support for DICOM and other clinical ECG formats
