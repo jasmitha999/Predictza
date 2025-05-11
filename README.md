@@ -1,4 +1,4 @@
-# Predictza
+# 🩺 Predictza: ECG-Based Heart Disease Prediction App
 
 ## 🎯 Objective
 **Predictza** aims to bridge the gap between medical imaging and real-time diagnosis using machine learning. By automating the interpretation of ECG images, it empowers users and healthcare providers to identify potential heart conditions early and take preventive actions.
